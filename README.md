@@ -6,7 +6,8 @@ We classify registration algorithms into supervised and unsupervised, as follows
 
 [Supervised Point Cloud Registration Methods](#supervised)
  * [1. Descriptor Extraction](#s-1)
-   * [1.1 Keypoint-based](#s-1-1)
+   * [1. 1 Keypoint-based](#s-1-1)
+   * [1. 2 Keypoint-free](#s-1-2)
 
 [Unsupervised Point Cloud Registration Methods](#unsupervised)
 
@@ -22,7 +23,7 @@ We classify registration algorithms into supervised and unsupervised, as follows
 
 <p id="s-1-1"></p>
 
-#### 1.1 Keypoint-based
+#### 1. 1 Keypoint-based
 * DeepVCP: An End-to-End Deep Neural Network for Point Cloud Registration.
 \[[paper](https://ieeexplore.ieee.org/document/9009450)\]
 \[[code](https://github.com/jundaozhilian/DeepVCP-PyTorch)\]
@@ -59,23 +60,30 @@ We classify registration algorithms into supervised and unsupervised, as follows
 \[[paper](https://ieeexplore.ieee.org/document/10205493)\]
 \[[code](https://github.com/aosheng1996/BUFFER)\]
 
+<p id="s-1-2"></p>
 
-\[[paper]()\]
+#### 1. 2 Keypoint-free
+
+* CoFiNet: Reliable Coarse-to-fine Correspondences for Robust PointCloud Registration.
+\[[paper](https://proceedings.neurips.cc/paper/2021/hash/c85b2ea9a678e74fdc8bafe5d0707c31-Abstract.html)\]
+\[[code](https://github.com/haoyu94/Coarse-to-fine-correspondences)\]
+
+* One-Inlier is First: Towards Efficient Position Encoding for Point Cloud Registration.
+\[[paper](https://papers.nips.cc/paper_files/paper/2022/hash/2e163450c1ae3167832971e6da29f38d-Abstract-Conference.html)\]
 \[[code]()\]
 
-\[[paper]()\]
+* GeDi: Learning General and Distinctive 3D Local Deep Descriptors for Point Cloud Registration.
+\[[paper](https://ieeexplore.ieee.org/document/9775606)\]
 \[[code]()\]
 
+* GeoTransformer: Fast and Robust Point Cloud Registration With Geometric Transformer.
+\[[paper](https://ieeexplore.ieee.org/document/10076895)\]
+\[[code](https://github.com/qinzheng93/GeoTransformer)\]
 
-\[[paper]()\]
-\[[code]()\]
+* RoITr: Rotation-Invariant Transformer for Point Cloud Matching
+\[[paper](https://ieeexplore.ieee.org/document/10204543)\]
+\[[code](https://github.com/haoyu94/RoITr)\]
 
-
-\[[paper]()\]
-\[[code]()\]
-
-\[[paper]()\]
-\[[code]()\]
 
 \[[paper]()\]
 \[[code]()\]

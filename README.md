@@ -21,12 +21,14 @@ We classify registration algorithms into supervised and unsupervised, as follows
  * [7. Multimodal](#s-7)
 
 [Unsupervised Point Cloud Registration Methods](#unsupervised)
-
+ * [1. Correspondence-free](#u-1)
+ * [2. Correspondence-based](#u-2)
+   
 [Dataset](#dataset)
 
 <p id="supervised"></p>
 
-## Supervised Dehazing Methods
+## Supervised Point Cloud Registration Methods
 
 <p id="s-1"></p>
 
@@ -263,54 +265,48 @@ We classify registration algorithms into supervised and unsupervised, as follows
 \[[paper](https://ieeexplore.ieee.org/document/9940574)\]
 \[[code](https://github.com/XiaoshuiHuang/GMF)\]
 
+<p id="unsupervised"></p>
 
-\[[paper]()\]
+## Unsupervised Point Cloud Registration Methods
+
+<p id="u-1"></p>
+
+### 1. Correspondence-free
+
+* PPF-FoldNet: Unsupervised Learning of Rotation Invariant 3D Local Descriptors.
+\[[paper](https://dl.acm.org/doi/10.1007/978-3-030-01228-1_37)\]
+\[[code](https://github.com/XuyangBai/PPF-FoldNet)\]
+
+* PCRNet: Point Cloud Registration Network using PointNet Encoding
+\[[paper](https://arxiv.org/abs/1908.07906)\]
+\[[code](https://github.com/vinits5/pcrnet)\]
+
+* UPCR: A Representation Separation Perspective to Correspondence-Free Unsupervised 3-D Point Cloud Registration.
+\[[paper](https://ieeexplore.ieee.org/document/9638480)\]
 \[[code]()\]
 
-\[[paper]()\]
+* UGMM: Unsupervised Point Cloud Registration by Learning Unified Gaussian Mixture Models.
+\[[paper](https://ieeexplore.ieee.org/document/9790333)\]
+\[[code](https://github.com/XiaoshuiHuang/UGMMREG)\]
+
+* Research and Application on Cross-source Point Cloud Registration Method Based on Unsupervised Learning。
+\[[paper](https://ieeexplore.ieee.org/abstract/document/10256428)\]
 \[[code]()\]
 
-\[[paper]()\]
-\[[code]()\]
+<p id="u-2"></p>
 
-\[[paper]()\]
-\[[code]()\]
+### 1. Correspondence-based
 
-\[[paper]()\]
-\[[code]()\]
+* CEMNet: Sampling Network Guided Cross-Entropy Method for Unsupervised Point Cloud Registration.
+\[[paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Jiang_Sampling_Network_Guided_Cross-Entropy_Method_for_Unsupervised_Point_Cloud_Registration_ICCV_2021_paper.pdf)\]
+\[[code](https://github.com/Jiang-HB/CEMNet)\]
 
-\[[paper]()\]
-\[[code]()\]
+* RIENet: Reliable Inlier Evaluation for Unsupervised Point Cloud Registration.
+\[[paper](https://aaai.org/papers/02198-reliable-inlier-evaluation-for-unsupervised-point-cloud-registration/)\]
+\[[code](https://github.com/supersyq/RIENet)\]
 
-\[[paper]()\]
-\[[code]()\]
-
-\[[paper]()\]
-\[[code]()\]
-\[[paper]()\]
-\[[code]()\]
-
-\[[paper]()\]
-\[[code]()\]
-
-\[[paper]()\]
-\[[code]()\]
-
-\[[paper]()\]
-\[[code]()\]
-\[[paper]()\]
-\[[code]()\]
-
-\[[paper]()\]
-\[[code]()\]
-
-\[[paper]()\]
-\[[code]()\]
-
-\[[paper]()\]
-\[[code]()\]
-  
-
-
+* UDPReg: Unsupervised Deep Probabilistic Approach for Partial Point Cloud Registration.
+\[[paper](https://ieeexplore.ieee.org/abstract/document/10204460)\]
+\[[code](https://github.com/gfmei/udpreg)\]
 
 

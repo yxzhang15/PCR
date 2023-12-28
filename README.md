@@ -26,3 +26,10 @@ We classify registration algorithms into supervised and unsupervised, as follows
 * DeepVCP: An End-to-End Deep Neural Network for Point Cloud Registration.
 \[[paper](https://ieeexplore.ieee.org/document/9009450)\]
 \[[code](https://github.com/jundaozhilian/DeepVCP-PyTorch)\]
+
+* The Perfect Match: 3D Point Cloud Matching With Smoothed Densities.
+\[[paper](https://ieeexplore.ieee.org/document/8954296)\]
+\[[code](https://github.com/zgojcic/3DSmoothNet)\]
+
+
+

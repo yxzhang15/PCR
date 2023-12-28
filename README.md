@@ -24,7 +24,7 @@ We classify registration algorithms into supervised and unsupervised, as follows
  * [1. Correspondence-free](#u-1)
  * [2. Correspondence-based](#u-2)
    
-[Dataset](#dataset)
+[Datasets](#dataset)
 
 <p id="supervised"></p>
 
@@ -308,5 +308,54 @@ We classify registration algorithms into supervised and unsupervised, as follows
 * UDPReg: Unsupervised Deep Probabilistic Approach for Partial Point Cloud Registration.
 \[[paper](https://ieeexplore.ieee.org/abstract/document/10204460)\]
 \[[code](https://github.com/gfmei/udpreg)\]
+
+<p id="dataset"></p>
+
+## Datasets
+
+* Stanford: A Volumetric Method for Building Complex Models from Range Images.
+\[[paper](https://dl.acm.org/doi/10.1145/237170.237269)\]
+\[[code](http://www-graphics.stanford.edu/)\]
+
+* ETH: Challenging Data Sets for Point Cloud Registration Algorithms.
+\[[paper](https://dl.acm.org/doi/10.1177/0278364912458814)\]
+\[[code](https://projects.asl.ethz.ch/datasets/doku.php?id=laserregistration:laserregistration#:~:text=Challenging%20data%20sets%20for%20point%20cloud%20registration%20algorithms,%29%3A%20...%204%20Permissions%20...%205%20Contact%20)\]
+
+* KITTI: Are We Ready for Autonomous Driving? The KITTI Vision Benchmark Suite.
+\[[paper](https://ieeexplore.ieee.org/document/6248074)\]
+\[[code](www.cvlibs.net/datasets/kitti)\]
+
+* ModelNet40: 3D ShapeNets: A Deep Representation for Volumetric Shapes.
+\[[paper](https://ieeexplore.ieee.org/document/7298801)\]
+\[[code](https://3dshapenets.cs.princeton.edu/)\]
+
+* ShapeNet: An Information-Rich 3D Model Repository.
+\[[paper](https://arxiv.org/abs/1512.03012)\]
+\[[code](https://www.shapenet.org/)\]
+
+* ICL-NUIM: A Benchmark for RGB-D Visual Odometry, 3D Reconstruction and SLAM.
+\[[paper](https://ieeexplore.ieee.org/document/6907054)\]
+\[[code](https://www.doc.ic.ac.uk/~ahanda/VaFRIC/iclnuim.html)\]
+
+* 3DMatch: Learning the Matching of Local 3D Geometry in Range Scans.
+\[[paper](https://techmatt.github.io/pdfs/3DMatch.pdf)\]
+\[[code](https://3dmatch.cs.princeton.edu/)\]
+
+* Apollo-SouthBay: L3-Net: Towards Learning Based LiDAR Localization for Autonomous Driving.
+\[[paper](https://ieeexplore.ieee.org/document/8954371)\]
+\[[code](https://developer.apollo.auto/southbay.html)\]
+
+* ScanObjectNN. Revisiting Point Cloud Classification: A New Benchmark Dataset and Classification Model on Real-World Data.
+\[[paper](https://ieeexplore.ieee.org/document/9009007)\]
+\[[code](https://hkust-vgd.github.io/scanobjectnn/)\]
+
+* WHU-TLS: Registration of Large-scale Terrestrial Laser Scanner Point Clouds: A Review and Benchmark. 
+\[[paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271620300836)\]
+\[[code](https://github.com/WHU-USI3DV/WHU-TLS)\]
+
+* FlyingShapes: SIRA-PCR: Sim-to-Real Adaptation for 3D Point Cloud Registration.
+\[[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_SIRA-PCR_Sim-to-Real_Adaptation_for_3D_Point_Cloud_Registration_ICCV_2023_paper.pdf)\]
+\[[code](https://github.com/Chen-Suyi/SIRA_Pytorch)\]
+
 
 

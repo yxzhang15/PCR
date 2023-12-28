@@ -6,6 +6,7 @@ We classify registration algorithms into supervised and unsupervised, as follows
 
 [Supervised Point Cloud Registration Methods](#supervised)
  * [1. Descriptor Extraction](#s-1)
+ * * Keypoint-based
 
 ## Supervised Dehazing Methods
 

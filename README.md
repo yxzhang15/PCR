@@ -9,6 +9,7 @@ We classify registration algorithms into supervised and unsupervised, as follows
    * [1. 1 Keypoint-based](#s-1-1)
    * [1. 2 Keypoint-free](#s-1-2)
    * [1. 3 Multiview](#s-1-3)
+ * [2. Feature Enhancement](#s-2)   
 
 [Unsupervised Point Cloud Registration Methods](#unsupervised)
 
@@ -105,17 +106,27 @@ We classify registration algorithms into supervised and unsupervised, as follows
 \[[paper](https://ieeexplore.ieee.org/document/10203551)\]
 \[[code](https://github.com/WHU-USI3DV/SGHR)\]
 
-\[[paper]()\]
+<p id="s-2"></p>
+
+### 2. Feature Enhancement
+
+* FIRE-Net: Feature Interactive Representation for Point Cloud Registration.
+\[[paper](https://ieeexplore.ieee.org/document/9710761)\]
 \[[code]()\]
 
-\[[paper]()\]
-\[[code]()\]
+* PCAM: Product of Cross-Attention Matrices for Rigid Registration of Point Clouds.
+\[[paper](https://ieeexplore.ieee.org/document/9711218)\]
+\[[code](https://github.com/valeoai/PCAM)\]
 
-\[[paper]()\]
-\[[code]()\]
+* RGM: Robust Point Cloud Registration Framework Based on Deep Graph Matching.
+\[[paper](https://ieeexplore.ieee.org/document/9578566)\]
+\[[code](https://github.com/fukexue/RGM)\]
 
-\[[paper]()\]
-\[[code]()\]
+* REGTR: End-to-end Point Cloud Correspondences with Transformers.
+\[[paper](https://ieeexplore.ieee.org/document/9880077)\]
+\[[code](https://github.com/yewzijian/RegTR)\]
+
+
 \[[paper]()\]
 \[[code]()\]
 

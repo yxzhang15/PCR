@@ -9,7 +9,10 @@ We classify registration algorithms into supervised and unsupervised, as follows
    * [1. 1 Keypoint-based](#s-1-1)
    * [1. 2 Keypoint-free](#s-1-2)
    * [1. 3 Multiview](#s-1-3)
- * [2. Feature Enhancement](#s-2)   
+ * [2. Feature Enhancement](#s-2)
+ * [3. Correspondence Search](#s-3)
+   * [3. 1 Partial-object](#s-3-1)
+   * [3. 1 Full-object](#s-3-2) 
 
 [Unsupervised Point Cloud Registration Methods](#unsupervised)
 
@@ -126,20 +129,50 @@ We classify registration algorithms into supervised and unsupervised, as follows
 \[[paper](https://ieeexplore.ieee.org/document/9880077)\]
 \[[code](https://github.com/yewzijian/RegTR)\]
 
+<p id="s-3"></p>
 
-\[[paper]()\]
+### 3. Correspondence Search
+
+<p id="s-3-1"></p>
+
+#### 3. 1 Partial-object
+
+* PointNetLK: Robust & Efficient Point Cloud Registration Using PointNet.
+\[[paper](https://ieeexplore.ieee.org/document/8954359)\]
+\[[code](https://github.com/hmgoforth/PointNetLK)\]
+
+* Deep Closest Point: Learning Representations for Point Cloud Registration.
+\[[paper](https://ieeexplore.ieee.org/document/9009466)\]
+\[[code](https://github.com/WangYueFt/dcp)\]
+
+* PointNetLK Revisited.
+\[[paper](https://ieeexplore.ieee.org/document/9577995)\]
+\[[code](https://github.com/Lilac-Lee/PointNetLK_Revisited)\]
+
+<p id="s-3-2"></p>
+
+#### 3. 2 Partial-object
+
+ * PRNet: Self-supervised Learning for Partial-to-partial Registration.
+\[[paper](https://dl.acm.org/doi/10.5555/3454287.3455078)\]
+\[[code](https://github.com/WangYueFt/prnet)\]
+
+* RPM-Net: Robust Point Matching Using Learned Features.
+\[[paper](https://ieeexplore.ieee.org/document/9157132)\]
+\[[code](https://github.com/yewzijian/RPMNet)\]
+
+* PREDATOR: Registration of 3D Point Clouds with Low Overlap.
+\[[paper](https://ieeexplore.ieee.org/document/9577334)\]
+\[[code](https://github.com/prs-eth/OverlapPredator)\]
+
+* OMNet: Learning Overlapping Mask for Partial-to-Partial Point Cloud Registration.
+\[[paper](https://ieeexplore.ieee.org/document/9709963)\]
+\[[code](https://github.com/megvii-research/OMNet)\]
+
+* STORM: Structure-Based Overlap Matching for Partial Point Cloud Registration.
+\[[paper](https://ieeexplore.ieee.org/document/9705149)\]
 \[[code]()\]
 
-\[[paper]()\]
-\[[code]()\]
-
-\[[paper]()\]
-\[[code]()\]
-
-\[[paper]()\]
-\[[code]()\]
-\[[paper]()\]
-\[[code]()\]
 
 \[[paper]()\]
 \[[code]()\]

@@ -6,7 +6,7 @@ We classify registration algorithms into supervised and unsupervised, as follows
 
 [Supervised Point Cloud Registration Methods](#supervised)
  * [1. Descriptor Extraction](#s-1)
-   * Keypoint-based(#s-1-1)
+   * [1.1 Keypoint-based](#s-1-1)
 
 ## Supervised Dehazing Methods
 
@@ -16,7 +16,7 @@ We classify registration algorithms into supervised and unsupervised, as follows
 
 <p id="s-1-1"></p>
 
-#### 1.Keypoint-based
+#### 1.1 Keypoint-based
 * DeepVCP: An End-to-End Deep Neural Network for Point Cloud Registration.
 \[[paper](https://ieeexplore.ieee.org/document/9009450)\]
 \[[code](https://github.com/jundaozhilian/DeepVCP-PyTorch)\]

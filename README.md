@@ -10,6 +10,7 @@ We classify registration algorithms into supervised and unsupervised, as follows
 ## Supervised Dehazing Methods
 
 <p id="s-1"></p>
+
 ### 1. Descriptor Extraction
 * DeepVCP: An End-to-End Deep Neural Network for Point Cloud Registration.
 [paper](https://ieeexplore.ieee.org/document/9009450)

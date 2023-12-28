@@ -8,6 +8,7 @@ We classify registration algorithms into supervised and unsupervised, as follows
  * [1. Descriptor Extraction](#s-1)
    * [1. 1 Keypoint-based](#s-1-1)
    * [1. 2 Keypoint-free](#s-1-2)
+   * [1. 3 Multiview](#s-1-3)
 
 [Unsupervised Point Cloud Registration Methods](#unsupervised)
 
@@ -80,14 +81,108 @@ We classify registration algorithms into supervised and unsupervised, as follows
 \[[paper](https://ieeexplore.ieee.org/document/10076895)\]
 \[[code](https://github.com/qinzheng93/GeoTransformer)\]
 
-* RoITr: Rotation-Invariant Transformer for Point Cloud Matching
+* RoITr: Rotation-Invariant Transformer for Point Cloud Matching.
 \[[paper](https://ieeexplore.ieee.org/document/10204543)\]
 \[[code](https://github.com/haoyu94/RoITr)\]
 
+<p id="s-1-3"></p>
+
+#### 1. 3 Multiview
+
+* Learning and Matching Multi-View Descriptors for Registration of Point Clouds.
+\[[paper](https://dl.acm.org/doi/abs/10.1007/978-3-030-01267-0_31)\]
+\[[code]()\]
+
+* End-to-end learning local multi-view descriptors for 3d point clouds
+\[[paper](https://ieeexplore.ieee.org/document/9156894)\]
+\[[code]()\]
+
+* Learning multiview 3d point cloud registration
+\[[paper](https://ieeexplore.ieee.org/document/9157740)\]
+\[[code](https://github.com/zgojcic/3D_multiview_reg)\]
+
+* Robust Multiview Point Cloud Registration with Reliable Pose Graph Initialization and History Reweighting.
+\[[paper](https://ieeexplore.ieee.org/document/10203551)\]
+\[[code](https://github.com/WHU-USI3DV/SGHR)\]
 
 \[[paper]()\]
 \[[code]()\]
 
+\[[paper]()\]
+\[[code]()\]
+
+\[[paper]()\]
+\[[code]()\]
+
+\[[paper]()\]
+\[[code]()\]
+\[[paper]()\]
+\[[code]()\]
+
+\[[paper]()\]
+\[[code]()\]
+
+\[[paper]()\]
+\[[code]()\]
+
+\[[paper]()\]
+\[[code]()\]
+\[[paper]()\]
+\[[code]()\]
+
+\[[paper]()\]
+\[[code]()\]
+
+\[[paper]()\]
+\[[code]()\]
+
+\[[paper]()\]
+\[[code]()\]
+\[[paper]()\]
+\[[code]()\]
+
+\[[paper]()\]
+\[[code]()\]
+
+\[[paper]()\]
+\[[code]()\]
+
+\[[paper]()\]
+\[[code]()\]
+
+\[[paper]()\]
+\[[code]()\]
+
+\[[paper]()\]
+\[[code]()\]
+
+\[[paper]()\]
+\[[code]()\]
+
+\[[paper]()\]
+\[[code]()\]
+\[[paper]()\]
+\[[code]()\]
+
+\[[paper]()\]
+\[[code]()\]
+
+\[[paper]()\]
+\[[code]()\]
+
+\[[paper]()\]
+\[[code]()\]
+\[[paper]()\]
+\[[code]()\]
+
+\[[paper]()\]
+\[[code]()\]
+
+\[[paper]()\]
+\[[code]()\]
+
+\[[paper]()\]
+\[[code]()\]
   
 
 

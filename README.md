@@ -13,5 +13,5 @@ We classify registration algorithms into supervised and unsupervised, as follows
 
 ### 1. Descriptor Extraction
 * DeepVCP: An End-to-End Deep Neural Network for Point Cloud Registration.
-[paper](https://ieeexplore.ieee.org/document/9009450)
-[code](https://github.com/jundaozhilian/DeepVCP-PyTorch)
+\[[paper](https://ieeexplore.ieee.org/document/9009450)\]
+\[[code](https://github.com/jundaozhilian/DeepVCP-PyTorch)\]

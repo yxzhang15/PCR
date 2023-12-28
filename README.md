@@ -12,7 +12,13 @@ We classify registration algorithms into supervised and unsupervised, as follows
  * [2. Feature Enhancement](#s-2)
  * [3. Correspondence Search](#s-3)
    * [3. 1 Partial-object](#s-3-1)
-   * [3. 1 Full-object](#s-3-2) 
+   * [3. 2 Full-object](#s-3-2)
+ * [4. Outlier Rejection](#s-4)
+ * [5. Transformation Parameter Estimation](#s-5)
+ * [6. Optimization](#s-6)
+   * [6. 1 ICP-based](#s-6-1)
+   * [6. 2 Probabilistic-based](#s-6-2) 
+ * [7. Multimodal](#s-7)
 
 [Unsupervised Point Cloud Registration Methods](#unsupervised)
 
@@ -173,15 +179,91 @@ We classify registration algorithms into supervised and unsupervised, as follows
 \[[paper](https://ieeexplore.ieee.org/document/9705149)\]
 \[[code]()\]
 
+<p id="s-4"></p>
 
-\[[paper]()\]
+### 4. Outlier Rejection
+
+* 3DRegNet: A Deep Neural Network for 3D Point Registration.
+\[[paper](https://ieeexplore.ieee.org/document/9156303)\]
+\[[code](https://github.com/3DVisionISR/3DRegNet)\]
+
+* PointDSC: Robust Point Cloud Registration using Deep Spatial Consistency.
+\[[paper](https://ieeexplore.ieee.org/document/9578333)\]
+\[[code](https://github.com/XuyangBai/PointDSC)\]
+
+* DLF: 
+\[[paper](https://ieeexplore.ieee.org/abstract/document/9866792)\]
 \[[code]()\]
 
-\[[paper]()\]
+<p id="s-5"></p>
+
+### 5. Transformation Parameter Estimation
+
+* DeTarNet: Decoupling Translation and Rotation by Siamese Network for Point Cloud Registration.
+\[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/19917)\]
+\[[code](https://github.com/ZhiChen902/DetarNet)\]
+
+* FINet: Dual Branches Feature Interaction for Partial-to-Partial Point Cloud Registration
+\[[paper](https://arxiv.org/abs/2106.03479)\]
+\[[code](https://github.com/MegEngine/FINet)\]
+
+<p id="s-6"></p>
+
+### 6. Optimization
+
+<p id="s-6-1"></p>
+
+#### 6. 1 ICP-based
+
+* Deep Closest Point: Learning Representations for Point Cloud Registration.
+\[[paper](https://ieeexplore.ieee.org/document/9009466)\]
+\[[code](https://github.com/WangYueFt/dcp)\]
+
+ * PRNet: Self-supervised Learning for Partial-to-partial Registration.
+\[[paper](https://dl.acm.org/doi/10.5555/3454287.3455078)\]
+\[[code](https://github.com/WangYueFt/prnet)\]
+
+* IDAM: Iterative Distance-Aware Similarity Matrix Convolution with Mutual-Supervised Point Elimination for Efficient Point Cloud Registration.
+\[[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123690375.pdf)\]
+\[[code](https://github.com/jiahaowork/idam)\]
+
+<p id="s-6-2"></p>
+
+#### 6. 2 Probabilistic-based
+
+* DeepGMR: Learning Latent Gaussian Mixture Models for Registration.
+\[[paper](https://link.springer.com/chapter/10.1007/978-3-030-58558-7_43)\]
+\[[code](https://github.com/wentaoyuan/deepgmr)\]
+
+* OGMM: Overlap-guided Gaussian Mixture Models for Point Cloud Registration.
+\[[paper](https://openaccess.thecvf.com/content/WACV2023/papers/Mei_Overlap-Guided_Gaussian_Mixture_Models_for_Point_Cloud_Registration_WACV_2023_paper.pdf)\]
+\[[code](https://github.com/gfmei/ogmm)\]
+
+* Point Cloud Registration Based on Learning Gaussian Mixture Models With Global-Weighted Local Representations.
+\[[paper](https://ieeexplore.ieee.org/document/10066279)\]
 \[[code]()\]
 
-\[[paper]()\]
+* VBReg: Robust Outlier Rejection for 3D Registration with Variational Bayes.
+\[[paper](https://ieeexplore.ieee.org/document/10204375)\]
+\[[code](https://github.com/Jiang-HB/VBReg)\]
+
+<p id="s-7"></p>
+
+### 7. Multimodal
+
+* ImLoveNet: Misaligned Image-supported Registration Network for Low-overlap Point Cloud Pairs.
+\[[paper](https://dl.acm.org/doi/10.1145/3528233.3530744)\]
 \[[code]()\]
+
+* IMFNet: Interpretable Multimodal Fusion for Point Cloud Registration.
+\[[paper](https://ieeexplore.ieee.org/abstract/document/9919364)\]
+\[[code](https://github.com/XiaoshuiHuang/IMFNet)\]
+
+* GMF: General Multimodal Fusion Framework for Correspondence Outlier Rejection.
+\[[paper](https://ieeexplore.ieee.org/document/9940574)\]
+\[[code](https://github.com/XiaoshuiHuang/GMF)\]
+
+
 \[[paper]()\]
 \[[code]()\]
 

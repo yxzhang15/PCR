@@ -6,9 +6,8 @@ We classify registration algorithms into supervised and unsupervised, as follows
 
 [Supervised Point Cloud Registration Methods](#supervised)
  * [1. Descriptor Extraction](#s-1)
-   * [1. 1 Keypoint-based](#s-1-1)
-   * [1. 2 Keypoint-free](#s-1-2)
-   * [1. 3 Multiview](#s-1-3)
+   * [1. 1 Two-view](#s-1-1)
+   * [1. 2 Multi-view](#s-1-3)
  * [2. Feature Enhancement](#s-2)
  * [3. Correspondence Search](#s-3)
    * [3. 1 Partial-object](#s-3-1)
@@ -72,10 +71,6 @@ We classify registration algorithms into supervised and unsupervised, as follows
 * BUFFER: Balancing Accuracy, Efficiency, and Generalizability in Point Cloud Registration.
 \[[paper](https://ieeexplore.ieee.org/document/10205493)\]
 \[[code](https://github.com/aosheng1996/BUFFER)\]
-
-<p id="s-1-2"></p>
-
-#### 1. 2 Keypoint-free
 
 * CoFiNet: Reliable Coarse-to-fine Correspondences for Robust PointCloud Registration.
 \[[paper](https://proceedings.neurips.cc/paper/2021/hash/c85b2ea9a678e74fdc8bafe5d0707c31-Abstract.html)\]

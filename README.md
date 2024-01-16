@@ -8,16 +8,15 @@ We classify registration algorithms into supervised and unsupervised, as follows
  * [1. Descriptor Extraction](#s-1)
    * [1. 1 Two-view](#s-1-1)
    * [1. 2 Multi-view](#s-1-3)
- * [2. Feature Enhancement](#s-2)
- * [3. Correspondence Search](#s-3)
-   * [3. 1 Partial-object](#s-3-1)
-   * [3. 2 Full-object](#s-3-2)
- * [4. Outlier Rejection](#s-4)
- * [5. Transformation Parameter Estimation](#s-5)
- * [6. Optimization](#s-6)
-   * [6. 1 ICP-based](#s-6-1)
-   * [6. 2 Probabilistic-based](#s-6-2) 
- * [7. Multimodal](#s-7)
+ * [2. Correspondence Search](#s-3)
+   * [2. 1 Partial-object](#s-3-1)
+   * [2. 2 Full-object](#s-3-2)
+ * [3. Outlier Rejection](#s-4)
+ * [4. Transformation Parameter Estimation](#s-5)
+ * [5. Optimization](#s-6)
+   * [5. 1 ICP-based](#s-6-1)
+   * [5. 2 Probabilistic-based](#s-6-2) 
+ * [6. Multimodal](#s-7)
 
 [Unsupervised Point Cloud Registration Methods](#unsupervised)
  * [1. Correspondence-free](#u-1)
@@ -94,7 +93,7 @@ We classify registration algorithms into supervised and unsupervised, as follows
 
 <p id="s-1-3"></p>
 
-#### 1. 3 Multiview
+#### 1. 2 Multiview
 
 * Learning and Matching Multi-View Descriptors for Registration of Point Clouds.
 \[[paper](https://dl.acm.org/doi/abs/10.1007/978-3-030-01267-0_31)\]
@@ -112,25 +111,6 @@ We classify registration algorithms into supervised and unsupervised, as follows
 \[[paper](https://ieeexplore.ieee.org/document/10203551)\]
 \[[code](https://github.com/WHU-USI3DV/SGHR)\]
 
-<p id="s-2"></p>
-
-### 2. Feature Enhancement
-
-* FIRE-Net: Feature Interactive Representation for Point Cloud Registration.
-\[[paper](https://ieeexplore.ieee.org/document/9710761)\]
-\[[code]()\]
-
-* PCAM: Product of Cross-Attention Matrices for Rigid Registration of Point Clouds.
-\[[paper](https://ieeexplore.ieee.org/document/9711218)\]
-\[[code](https://github.com/valeoai/PCAM)\]
-
-* RGM: Robust Point Cloud Registration Framework Based on Deep Graph Matching.
-\[[paper](https://ieeexplore.ieee.org/document/9578566)\]
-\[[code](https://github.com/fukexue/RGM)\]
-
-* REGTR: End-to-end Point Cloud Correspondences with Transformers.
-\[[paper](https://ieeexplore.ieee.org/document/9880077)\]
-\[[code](https://github.com/yewzijian/RegTR)\]
 
 <p id="s-3"></p>
 
@@ -176,9 +156,22 @@ We classify registration algorithms into supervised and unsupervised, as follows
 \[[paper](https://ieeexplore.ieee.org/document/9705149)\]
 \[[code]()\]
 
+* FIRE-Net: Feature Interactive Representation for Point Cloud Registration.
+\[[paper](https://ieeexplore.ieee.org/document/9710761)\]
+\[[code]()\]
+
+* PCAM: Product of Cross-Attention Matrices for Rigid Registration of Point Clouds.
+\[[paper](https://ieeexplore.ieee.org/document/9711218)\]
+\[[code](https://github.com/valeoai/PCAM)\]
+
+* REGTR: End-to-end Point Cloud Correspondences with Transformers.
+\[[paper](https://ieeexplore.ieee.org/document/9880077)\]
+\[[code](https://github.com/yewzijian/RegTR)\]
+
+
 <p id="s-4"></p>
 
-### 4. Outlier Rejection
+### 3. Outlier Rejection
 
 * 3DRegNet: A Deep Neural Network for 3D Point Registration.
 \[[paper](https://ieeexplore.ieee.org/document/9156303)\]
@@ -194,7 +187,7 @@ We classify registration algorithms into supervised and unsupervised, as follows
 
 <p id="s-5"></p>
 
-### 5. Transformation Parameter Estimation
+### 4. Transformation Parameter Estimation
 
 * DeTarNet: Decoupling Translation and Rotation by Siamese Network for Point Cloud Registration.
 \[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/19917)\]
@@ -206,11 +199,11 @@ We classify registration algorithms into supervised and unsupervised, as follows
 
 <p id="s-6"></p>
 
-### 6. Optimization
+### 5. Optimization
 
 <p id="s-6-1"></p>
 
-#### 6. 1 ICP-based
+#### 5. 1 ICP-based
 
 * Deep Closest Point: Learning Representations for Point Cloud Registration.
 \[[paper](https://ieeexplore.ieee.org/document/9009466)\]
@@ -226,7 +219,7 @@ We classify registration algorithms into supervised and unsupervised, as follows
 
 <p id="s-6-2"></p>
 
-#### 6. 2 Probabilistic-based
+#### 5. 2 Probabilistic-based
 
 * DeepGMR: Learning Latent Gaussian Mixture Models for Registration.
 \[[paper](https://link.springer.com/chapter/10.1007/978-3-030-58558-7_43)\]
@@ -246,7 +239,7 @@ We classify registration algorithms into supervised and unsupervised, as follows
 
 <p id="s-7"></p>
 
-### 7. Multimodal
+### 6. Multimodal
 
 * ImLoveNet: Misaligned Image-supported Registration Network for Low-overlap Point Cloud Pairs.
 \[[paper](https://dl.acm.org/doi/10.1145/3528233.3530744)\]
@@ -290,7 +283,7 @@ We classify registration algorithms into supervised and unsupervised, as follows
 
 <p id="u-2"></p>
 
-### 1. Correspondence-based
+### 2. Correspondence-based
 
 * CEMNet: Sampling Network Guided Cross-Entropy Method for Unsupervised Point Cloud Registration.
 \[[paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Jiang_Sampling_Network_Guided_Cross-Entropy_Method_for_Unsupervised_Point_Cloud_Registration_ICCV_2021_paper.pdf)\]

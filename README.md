@@ -240,6 +240,13 @@ We classify registration algorithms into supervised and unsupervised, as follows
 <p id="s-7"></p>
 
 ### 6. Multimodal
+* PCR-CG: Point Cloud Registration via Deep Explicit Color and Geometry.
+\[[paper](https://link.springer.com/chapter/10.1007/978-3-031-20080-9_26)\]
+\[[code]()\]
+
+* PEAL: Prior-embedded Explicit Attention Learning for Low-overlap Point Cloud Registration.
+\[[paper](https://ieeexplore.ieee.org/abstract/document/10203464)\]
+\[[code](https://github.com/Gardlin/PEAL)\]
 
 * ImLoveNet: Misaligned Image-supported Registration Network for Low-overlap Point Cloud Pairs.
 \[[paper](https://dl.acm.org/doi/10.1145/3528233.3530744)\]

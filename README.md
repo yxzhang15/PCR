@@ -181,9 +181,18 @@ We classify registration algorithms into supervised and unsupervised, as follows
 \[[paper](https://ieeexplore.ieee.org/document/9578333)\]
 \[[code](https://github.com/XuyangBai/PointDSC)\]
 
-* DLF: 
+* DLF: Partial Point Cloud Registration With Deep Local Feature.
 \[[paper](https://ieeexplore.ieee.org/abstract/document/9866792)\]
 \[[code]()\]
+
+* 3D Registration with Maximal Cliques. 
+\[[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_3D_Registration_With_Maximal_Cliques_CVPR_2023_paper.pdf)\]
+\[[code](https://github.com/zhangxy0517/3D-Registration-with-Maximal-Cliques)\]
+
+* Deep Hough Voting for Robust Global Registration.
+\[[paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Lee_Deep_Hough_Voting_for_Robust_Global_Registration_ICCV_2021_paper.pdf)\]
+\[[code](http://cvlab.postech.ac.kr/research/DHVR/)\]
+
 
 <p id="s-5"></p>
 

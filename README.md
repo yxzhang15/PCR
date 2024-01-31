@@ -11,7 +11,7 @@ We classify registration algorithms into supervised and unsupervised, as follows
  * [2. Correspondence Search](#s-3)
    * [2. 1 Partial-object](#s-3-1)
    * [2. 2 Full-object](#s-3-2)
- * [3. Outlier Rejection](#s-4)
+ * [3. Outlier Filtering](#s-4)
  * [4. Transformation Parameter Estimation](#s-5)
  * [5. Optimization](#s-6)
    * [5. 1 ICP-based](#s-6-1)
@@ -171,7 +171,7 @@ We classify registration algorithms into supervised and unsupervised, as follows
 
 <p id="s-4"></p>
 
-### 3. Outlier Rejection
+### 3. Outlier Filtering
 
 * 3DRegNet: A Deep Neural Network for 3D Point Registration.
 \[[paper](https://ieeexplore.ieee.org/document/9156303)\]

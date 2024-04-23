@@ -2,6 +2,8 @@
 
 This repository provides a summary of deep learning based point cloud registration algorithms. 
 
+If you find this repository helpful, we would greatly appreciate it if you could cite our paper: http://arxiv.org/abs/2404.13830.
+
 We classify registration algorithms into supervised and unsupervised, as follows.
 
 [Supervised Point Cloud Registration Methods](#supervised)

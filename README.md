@@ -1,4 +1,4 @@
-# A Collection of DL-based Dehazing Methods
+# A Collection of DL-based Point Cloud Registration Methods
 
 This repository provides a summary of deep learning based point cloud registration algorithms. 
 

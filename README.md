@@ -3,6 +3,7 @@
 This repository provides a summary of deep learning based point cloud registration algorithms. 
 
 ## Citation
+
 If you find this repository helpful, we would greatly appreciate it if you could cite our paper: https://doi.org/10.24963/ijcai.2024/922.
 
 ```bibtex
@@ -16,6 +17,7 @@ If you find this repository helpful, we would greatly appreciate it if you could
   year      = {2024},
   month     = {8}
 }
+```bibtex
 
 We classify registration algorithms into supervised and unsupervised, as follows.
 

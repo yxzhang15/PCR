@@ -2,7 +2,19 @@
 
 This repository provides a summary of deep learning based point cloud registration algorithms. 
 
-If you find this repository helpful, we would greatly appreciate it if you could cite our paper: http://arxiv.org/abs/2404.13830.
+If you find this repository helpful, we would greatly appreciate it if you could cite our paper: https://doi.org/10.24963/ijcai.2024/922.
+
+```bibtex
+@inproceedings{ijcai2024p922,
+  title     = {A Comprehensive Survey and Taxonomy on Point Cloud Registration Based on Deep Learning},
+  author    = {Zhang, Yu-Xin and Gui, Jie and Cong, Xiaofeng and Gong, Xin and Tao, Wenbing},
+  booktitle = {Proceedings of the Thirty-Third International Joint Conference on
+               Artificial Intelligence, {IJCAI-24}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  pages     = {8344--8353},
+  year      = {2024},
+  month     = {8}
+}
 
 We classify registration algorithms into supervised and unsupervised, as follows.
 

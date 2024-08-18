@@ -2,6 +2,7 @@
 
 This repository provides a summary of deep learning based point cloud registration algorithms. 
 
+## Citation
 If you find this repository helpful, we would greatly appreciate it if you could cite our paper: https://doi.org/10.24963/ijcai.2024/922.
 
 ```bibtex

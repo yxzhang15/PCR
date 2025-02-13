@@ -2,8 +2,8 @@
 
 This repository provides a summary of deep learning based point cloud registration algorithms. 
 
-If you find this repository helpful, we would greatly appreciate it if you could cite our paper: https://doi.org/10.24963/ijcai.2024/922.
-
+If you find this repository helpful, we would greatly appreciate it if you could cite our paper: https://doi.org/10.24963/ijcai.2024/922 and 
+http://arxiv.org/abs/2404.13830.
 ```bibtex
 @inproceedings{ijcai2024p922,
   title     = {A Comprehensive Survey and Taxonomy on Point Cloud Registration Based on Deep Learning},
@@ -14,6 +14,17 @@ If you find this repository helpful, we would greatly appreciate it if you could
   pages     = {8344--8353},
   year      = {2024},
   month     = {8}
+}
+```
+```
+@misc{zhang2025deeplearningbasedpointcloud,
+      title={Deep Learning-Based Point Cloud Registration: A Comprehensive Survey and Taxonomy}, 
+      author={Yu-Xin Zhang and Jie Gui and Baosheng Yu and Xiaofeng Cong and Xin Gong and Wenbing Tao and Dacheng Tao},
+      year={2025},
+      eprint={2404.13830},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2404.13830}, 
 }
 ```
 
